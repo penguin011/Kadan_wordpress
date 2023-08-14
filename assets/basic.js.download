@@ -1,0 +1,89 @@
+$(function(){
+    $('a[href^=#]').click(function(){
+        var speed = 500;
+        var href= $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top;
+        $("html, body").animate({scrollTop:position}, speed, "swing");
+        return false;
+    });
+});
+
+
+/* fixedBox
+---------------------------------------------------- */
+jQuery(function($) {
+  
+var nav    = $('#fixedBox'),
+    offset = nav.offset();
+  
+$(window).scroll(function () {
+  if($(window).scrollTop() > offset.top) {
+    nav.addClass('fixed');
+  } else {
+    nav.removeClass('fixed');
+  }
+});
+  
+});
+
+
+/* page_top
+---------------------------------------------------- */
+$(function() {
+    var topBtn = $('#page_top');    
+    topBtn.hide();
+    //スクロールが100に達したらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+    //スクロールしてトップ
+    topBtn.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
+});
+
+
+/* fadein
+---------------------------------------------------- */
+$(function() {
+	$('.list-mv07').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+		if(isInView){
+			$(this).stop().addClass('mv07');
+		}
+		else{
+			$(this).stop().removeClass('mv07');
+		}
+	});
+});
+
+
+/* accordion
+---------------------------------------------------- */
+$(function(){
+  $(".accordion01 dt").click(function(){
+	  $(this).next("dd").slideToggle();
+	  $(this).next("dd").siblings("dd").slideUp();
+	  $(this).toggleClass("open");    
+	  $(this).siblings("dt").removeClass("open");
+  });
+});
+
+
+/* imgChange
+---------------------------------------------------- */
+$(function(){
+	var wid = $(window).width();
+	if( wid < 740 ){
+		$('.imgChange').each(function(){
+			$(this).attr("src",$(this).attr("src").replace('_pc', '_sp'));
+		});
+	}
+});

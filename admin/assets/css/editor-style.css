@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+
+/* ----------------------- Admin editor css -------------------------- */
+
+
+/* ----------------------------------------------------------------------
+ reset css
+---------------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+ { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+audio, canvas, video { display:inline-block; max-width:100%; }
+html { overflow-y: scroll; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+ul, ol { list-style:none; }
+blockquote , q { quotes:none; }
+blockquote:before, blockquote:after, q:before, q:after { content:''; content: none; }
+a:focus { outline:none; }
+ins { text-decoration:none; }
+mark { font-style:italic; font-weight:bold; }
+del { text-decoration:line-through; }
+abbr[title], dfn[title] { border-bottom:1px dotted; cursor:help; }
+table { border-collapse:collapse; border-spacing:0; width:100%; }
+hr { display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 0; padding:0; }
+button, input, select, textarea { outline:0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; font-size:100%; }
+input, textarea { background-image: -webkit-linear-gradient(hsla(0,0%,100%,0), hsla(0,0%,100%,0)); -webkit-appearance: none; border-radius:0; /* Removing the inner shadow, rounded corners on iOS inputs */ }
+input[type="checkbox"]{ -webkit-appearance: checkbox; }
+input[type="radio"]{ -webkit-appearance: radio; }
+button::-moz-focus-inner, input::-moz-focus-inner { border:0; padding:0; }
+img { -ms-interpolation-mode:bicubic; }
+
+/* clearfix */
+.clearfix:after { content: "."; display:block; clear:both; height:0; font-size:0.1em; line-height:0; visibility:hidden; overflow:hidden; }
+.clearfix { display:inline-block; }
+/* exlude MacIE5 \*/
+* html .clearfix { height:1% }
+.clearfix { display:block;}
+/* end MacIE5 */
+
+
+
+body {
+  margin:10px; font-size:14px;
+  font-family: Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+
+
+/* ----------------------------------------------------------------------
+ WordPress プリセットスタイル
+---------------------------------------------------------------------- */
+/* alignment */
+.alignright { float:right; }
+.alignleft { float:left; }
+.aligncenter { display:block; margin-left:auto; margin-right:auto; margin-bottom:7px; }
+blockquote.alignleft, img.alignleft { margin:7px 24px 7px 0; }
+.wp-caption.alignleft { margin:7px 14px 7px 0; }
+blockquote.alignright, img.alignright { margin:7px 0 7px 24px; }
+.wp-caption.alignright { margin:7px 0 7px 14px; }
+blockquote.aligncenter, img.aligncenter, .wp-caption.aligncenter { margin-top:7px; margin-bottom:7px; }
+
+
+/* text and headline */
+p { line-height:2; margin:0 0 2em 0; }
+h1, h2, h3, h4, h5, h6 { clear:both; line-height:1.2; font-weight:600; margin:0 0 10px 0; padding:10px 0 0 0; }
+h1 { font-size:150%; }
+h2 { font-size:140%; }
+h3 { font-size:130%; }
+h4 { font-size:120%; }
+h5 { font-size:110%; }
+h6 { font-size:100%; }
+
+
+/* image */
+img[class*="align"], img[class*="wp-image-"], img[class*="attachment-"], img.size-full, img.size-large, .wp-post-image, img
+ { height:auto; max-width:100%; }
+
+
+/* list */
+li, dt, dd { line-height:2.2; }
+ul, ol, dl { margin-bottom:24px; }
+ol { list-style:decimal outside none; margin-left:1.5em; }
+ul { list-style:circle outside none; margin-left:1.3em; } 
+li > ul, li > ol { margin-bottom:0; }
+dt { font-weight:bold; }
+dd { margin-bottom:1em; }
+
+
+/* table */
+table { margin:0 0 24px 0; }
+td, th { border:1px solid #bbb; padding:10px 15px; line-height:2.2; background:#fff; }
+th { background:#ddd; font-weight:normal; }
+
+
+/* block quote */
+blockquote { margin:0 0 25px 0; padding:27px 30px 0; border:1px solid #ccc; box-shadow:0px 4px 0px 0px #f2f2f2; position:relative; }
+blockquote:before { content: '"'; font-style:italic; font-size:30px; font-weight:normal; line-height:40px; width:30px; height:30px; position:absolute; top:5px; left:10px; color:#5cbcd7; }
+blockquote:after { content: '"'; font-style:italic; font-size:30px; font-weight:normal; text-align:left; line-height:60px; width:30px; height:30px; position:absolute; bottom:7px; right:-2px; color:#5cbcd7; }
+blockquote cite { border-top:1px dotted #aaa; display:block; padding:20px 0 0 0; font-style:italic; text-align:right; font-size:90%; }
+
+
+/* captions */
+.wp-caption { margin-bottom:24px; background:#fff; border:1px solid #ccc; padding:5px; max-width:100%; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+.wp-caption-text { text-align:center; font-size:12px; font-style:italic; line-height:1.5; margin:9px auto; }
+.wp-caption img[class*="wp-image-"] { display:block; margin:0 auto; }
+
+
+/* gallery */
+.gallery { margin-bottom:20px; }
+.gallery a img { border: 0 !important; }
+.gallery-item { float:left; margin:0 4px 4px 0; overflow:hidden; position:relative; }
+.gallery-columns-1 .gallery-item { max-width:100%; }
+.gallery-columns-2 .gallery-item { max-width:48%; max-width:-webkit-calc(50% - 4px); max-width:calc(50% - 4px); }
+.gallery-columns-3 .gallery-item { max-width:32%; max-width:-webkit-calc(33.3% - 4px); max-width:calc(33.3% - 4px); }
+.gallery-columns-4 .gallery-item { max-width:23%; max-width:-webkit-calc(25% - 4px); max-width:calc(25% - 4px); }
+.gallery-columns-5 .gallery-item { max-width:19%; max-width:-webkit-calc(20% - 4px); max-width:calc(20% - 4px); }
+.gallery-columns-6 .gallery-item { max-width:15%; max-width:-webkit-calc(16.7% - 4px); max-width:calc(16.7% - 4px); }
+.gallery-columns-7 .gallery-item { max-width:13%; max-width:-webkit-calc(14.28% - 4px);	max-width:calc(14.28% - 4px); }
+.gallery-columns-8 .gallery-item { max-width:11%; max-width:-webkit-calc(12.5% - 4px); max-width:calc(12.5% - 4px); }
+.gallery-columns-9 .gallery-item { max-width: 9%; max-width:-webkit-calc(11.1% - 4px); max-width:calc(11.1% - 4px); }
+.gallery-columns-10 .gallery-item { max-width: 7%; max-width:-webkit-calc(9.4% - 0px); max-width:calc(9.4% - 0px); }
+.gallery-columns-1 .gallery-item:nth-of-type(1n), .gallery-columns-2 .gallery-item:nth-of-type(2n), .gallery-columns-3 .gallery-item:nth-of-type(3n), .gallery-columns-4 .gallery-item:nth-of-type(4n), .gallery-columns-5 .gallery-item:nth-of-type(5n), .gallery-columns-6 .gallery-item:nth-of-type(6n), .gallery-columns-7 .gallery-item:nth-of-type(7n), .gallery-columns-8 .gallery-item:nth-of-type(8n), .gallery-columns-9 .gallery-item:nth-of-type(9n), .gallery-columns-10 .gallery-item:nth-of-type(10n) { margin-right:0; }
+.gallery-caption { background-color:rgba(0, 0, 0, 0.7);	-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; color:#fff; font-size:12px; line-height:1.5; margin:0; max-height:50%; opacity:0; padding:6px 8px; position:absolute; bottom:0; left:0; text-align:left; width:100%; }
+.gallery-caption:before { content: ""; height:100%; min-height:49px; position:absolute; top:0; left:0; width:100%; }
+.gallery-item:hover .gallery-caption { opacity: 1; }
+.gallery-columns-7 .gallery-caption, .gallery-columns-8 .gallery-caption, .gallery-columns-9 .gallery-caption, .gallery-columns-10 .gallery-caption { display: none; }
+
+
+/* etc */
+.wp-smiley { border:0; margin-bottom:0; margin-top:0; padding:0; }
+address { margin:0 0 24px 0; line-height:2.2; }
+pre { border-left:5px solid #7fc120; font-size:12px; margin:0 0 27px 0; line-height:25px; background:url(img/common/pre.gif) repeat left top; padding:0 17px; overflow:auto; }
+.sticky { }
+.mejs-container { margin: 12px 0 25px; }
+
+
+
+/* design plus style ---------------------------------------------------------------*/
+
+
+
+/* ----------------------------------------------------------------------
+ headline - 見出しのスタイル
+---------------------------------------------------------------------- */
+.style3a, .style3b, .style4a, .style4b, .style5a, .style5b, .style6 { line-height:1.6; } 
+/* h3 */
+.style3a { margin:3em 0 1.5em; padding:1.1em .2em 1em; font-size:22px; font-weight:400; border-top:1px solid #222; border-bottom:1px solid #222; }
+.style3b { margin:3em 0 1.5em; padding:1.1em .9em 1em; font-size:22px; font-weight:400; border-top:2px solid #222; border-bottom:1px solid #ddd; background:#fafafa; box-shadow:0px 1px 2px #f7f7f7; }
+/* h4 */
+.style4a { margin:2.5em 2px 1.2em; padding:.3em 0 .3em .8em; font-size:18px; font-weight:400; border-bottom:none; border-left:2px solid #222; }
+.style4b { margin:2.5em 0 1.2em; padding:.9em 0 .8em; font-size:18px; font-weight:400; border-bottom:1px dotted #aaa; }
+/* h5 */
+.style5a { margin:2em 0 1em; padding:.5em .8em .3em 1em; font-weight:700; font-size:18px; background:#f5f5f5; box-shadow:0px 2px 0px 0px #f2f2f2; }
+.style5b { margin:2em 0 1em; padding:.5em .8em .4em 1em; font-weight:400; font-size:18px; color:#fff; background:#222; border-radius:4px; box-shadow:0px 2px 0px 0px #f2f2f2; }
+/* h6 */
+.style6 { position:relative; margin:2em 0 1em; padding:.5em .8em .8em 1.3em; color:#222; font-weight:bold; font-size:16px; }
+.style6:before { position:absolute; width:12px; height:12px; top:.5em; left:.2em; background:#222; content:""; }
+.news_headline1{ position:relative; margin:80px 0 25px 0; padding:.5em; border-left:8px solid #444; line-height:1.2; font-size:1.2em; }
+.news_headline1:after { content:""; position:absolute; bottom:0px; left:0; height:0; width:100%; border-bottom:1px dotted #ddd; }
+.news_headline2{ margin:40px 0 20px 0; padding:0 .5em; border-left:6px solid #545454; line-height:26px; font-size:1.1em;}
+.balloon { clear:both; display:block; position:relative; margin:50px 0 22px; padding:.5em 18px .5em; width:auto; min-width:115px; color:#fff; text-align:left; font-size:20px; font-weight:400; background:#222; z-index:0; border-bottom:0; }
+.balloon:after { content:""; position:absolute; bottom:-10px; left:30px; margin-left:-10px; display:block; width:0px; height:0px; border-style:solid; border-width:10px 10px 0 10px; border-color:#222 transparent transparent transparent; }
+
+
+/* ----------------------------------------------------------------------
+ flame - 囲み枠
+---------------------------------------------------------------------- */
+.well { min-height:20px; padding:19px; margin-bottom:20px; background-color:#f5f5f5; border:1px solid #e3e3e3; border-radius:4px; -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.05); box-shadow:inset 0 1px 1px rgba(0,0,0,0.05); }
+.well2 { margin:1em 0 30px; padding:1em 1.5em; line-height:2; border:1px solid #cdcdcd; background:#fcfcfc; box-shadow: 0 1px 3px 0 rgba(195,195,195,0.3); }
+.well3 { margin:2em 0 2.5em; padding:1em 1.5em;line-height:2.0; border:1px dashed #cdcdcd; background:#fcfcfc;  box-shadow: 0 1px 3px 0 rgba(195,195,195,0.3); }
+.wl_red { background-color: #f2dede; border-color: #ebccd1; color: #a94442; }
+.wl_yellow { background-color: #fcf8e3; border-color: #faebcc; color: #8a6d3b; }
+.wl_blue { background-color: #d9edf7; border-color: #bce8f1; color: #31708f; }
+.wl_green { background-color: #dff0d8; border-color: #d6e9c6; color: #3c763d; }
+
+
+/* ----------------------------------------------------------------------
+ button - CSSボタンのスタイル
+---------------------------------------------------------------------- */
+.q_button { min-width:200px; max-width:90%; background-color:#535353; display:inline-block; vertical-align:middle; padding:.6em 1.3em .5em; font-weight:400; font-size:100%; color:#fff; margin:0; text-decoration:none; text-align:center; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box; transition:all 0.3s ease-in-out 0s; box-shadow:0 1px 3px rgba(0,0,0,.15); }
+.q_button:hover, .q_button:focus { text-decoration:none; color:#fff; background-color:#7d7d7d; box-shadow:0 2px 2px rgba(0,0,0,.15) inset; }
+/* Button option */
+.rounded { border-radius:6px; }
+.pill { border-radius:50px; }
+.sz_full { min-width:100px; max-width:100%; display:block; font-size:110%; padding:1em 1.5em .9em; }
+.sz_l { min-width:350px; max-width:90%; font-size:110%; padding:.8em 1.5em .7em; }
+@media screen and (max-width: 479px) {
+  .sz_l { min-width:320px; max-width:95%; }
+}
+.sz_s { min-width:100px; max-width:90%; font-size:85%; padding:.4em 1em .3em; }
+.bt_red{ background:#c01f0e; color:#fff; }
+.bt_red:hover, .bt_red:focus { background-color:#d33929; color:#fff; }
+.bt_yellow{ background:#f1c40f; color:#fff; }
+.bt_yellow:hover, .bt_yellow:focus { background-color:#f9d441; color:#fff; }
+.bt_blue{ background:#2980b9; color:#fff; }
+.bt_blue:hover, .bt_blue:focus { background-color:#3a91c9; color:#fff; }
+.bt_green{ background:#27ae60; color:#fff; }
+.bt_green:hover, .bt_green:focus { background-color:#39c574; color:#fff; }
+/* Style for orion  */
+.bt_orion { background:#ccc; color:#fff; text-decoration:none; display:inline-block; margin:0; padding:0 30px; max-width:300px; height:50px; line-height:50px; text-align:center; font-size:14px; }
+.bt_orion:hover { text-decoration:none; color:#fff; }
+.bt_orion:after {
+  font-family:'design_plus'; content:'\e910'; font-size:17px; color:#fff; display:inline-block; padding-left:10px; position:relative; top:2px; 
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* ----------------------------------------------------------------------
+Youtube responsive - Youtube動画のレスポンシブ表示
+---------------------------------------------------------------------- */
+.ytube { position:relative; height:0; margin-top:20px; margin-bottom:20px; padding-bottom:56.25%; padding-top:30px; overflow:hidden; }
+.ytube iframe { position:absolute; top:0; right:0; width:100% !important; height:100% !important; }
+
+
+/* ----------------------------------------------------------------------
+Table responsive - テーブルのレスポンシブ表示
+---------------------------------------------------------------------- */
+.rps_table { line-height:2.0; }
+@media only screen and (max-width:480px) {
+  .rps_table tr { display:block; margin-bottom:1.5em; }
+  .rps_table th, .rps_table td{ display:list-item; list-style-type:none; border:none; }
+}
+
+

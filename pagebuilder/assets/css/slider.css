@@ -1,0 +1,32 @@
+.pb-widget-slider * { outline: none; }
+
+.pb_slider_wrap { width:100%; position:relative; margin:0; overflow: hidden; }
+.pb_slider { width:100%; height:auto; min-height: 60px; margin:0; text-align:center; }
+.pb_slider .pb_slider_item img { text-align:center; width:100%; height:auto; display:block; }
+.pb_slider_nav { width:100%; width:-webkit-calc(100% + 10px); width:-moz-calc(100% + 10px); width:calc(100% + 10px); margin:10px 0 0 0; }
+.pb_slider_nav .pb_slider_nav_item { margin:0 10px 0 0; cursor:pointer; background:#000; display:block; position:relative; }
+.pb_slider_nav .pb_slider_nav_item:after {
+  content:""; box-shadow:inset 0 0 0 0 rgba(0,0,0, 0); position:absolute; top:0; left:0; bottom:0; right:0;
+  -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
+}
+.pb_slider_nav .pb_slider_nav_item.slick-current:after { box-shadow:inset 0 0 0 7px rgba(0,0,0, 0.5); }
+.pb_slider_caption { padding: 40px; }
+.pb_slider_caption-show_border { border-bottom:1px solid #ddd; border-left:1px solid #ddd; border-right:1px solid #ddd; }
+.pb_slider_caption-hide_border {}
+.pb_slider_caption_item {}
+.pb_slider_caption_item > :last-child { margin-bottom:0; }
+
+.pb_slider .slick-arrow {
+  width: 60px; height: 60px; margin: -30px 0 0 0; padding: 0; overflow: hidden; text-align: center; font-family: 'design_plus'; color: #fff; font-size: 18px; line-height: 60px; position: absolute; bottom: 0; right: 0; z-index: 2; cursor: pointer; background: #000; border: none; opacity: 0.6; box-shadow:0 0 3px 0 rgba(0,0,0,0.2);
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;
+}
+.pb_slider .slick-prev { top: 50%; left: 0; }
+.pb_slider .slick-next { top: 50%; right: 0; }
+.pb_slider .slick-arrow:hover { opacity: 1; }
+.pb_slider .slick-arrow.slick-disabled { opacity: 0 !important; }
+
+@media only screen and (max-width: 767px) {
+  .pb_slider .slick-arrow { width: 40px; height: 40px; margin: -20px 0 0 0; font-size: 14px; line-height: 40px; }
+	.pb_slider_caption { padding: 20px; }
+}

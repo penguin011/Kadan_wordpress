@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* 基本設定 */
+#tcd-pb-wrap, .tcd-pb-row { overflow:hidden; }
+.tcd-pb-row, .tcd-pb-col, .tcd-pb-widget { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.tcd-pb-col { float:left; }
+
+/* clearfix */
+.clearfix:after { clear: both; content: " "; display: table; }
+
+/* 画像 */
+.pb-widget-image img { margin:0 auto; display:block; max-width:100%; height:auto; }
+
+/* 丸抜き画像 */
+.pb_circle_image { display: block; margin: 0 auto; }
+.pb_circle_image_inner { border-radius: 50%; display: block; overflow: hidden; padding-top: 100%; position: relative; }
+.pb-widget-image .pb_circle_image img { margin: 0; max-width: none; position: absolute; left: 0; top: 0; }
+.pb-widget-image .pb_circle_image-horizontal img { height: 100%; width: auto; }
+.pb-widget-image .pb_circle_image-vertical img { height: auto; width: 100%; }
+@supports (object-fit: cover) {
+  .pb-widget-image .pb_circle_image-horizontal img, .pb-widget-image .pb_circle_image-vertical img { height: 100%; object-fit: cover; width: 100%; }
+}
+
+/* 見出し、キャッチフレーズ */
+.pb_font_family_type1 { font-family: Arial, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif; }
+.pb_font_family_type2 { font-family: "Segoe UI", Arial, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
+.pb_font_family_type3 { font-family: "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif; }
+
+.pb-widget-headline h3 { margin:0; padding:0; }
+.pb-widget-catchcopy h4 { margin:0; padding:0; }
+
+/* editor */
+.pb-widget-editor > :last-child { margin-bottom:0; }

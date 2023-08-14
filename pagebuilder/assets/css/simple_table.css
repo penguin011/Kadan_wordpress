@@ -1,0 +1,30 @@
+table.pb_simple_table { border-collapse: collapse; border-spacing: 0; width: 100%; }
+table.pb_simple_table th, table.pb_simple_table td { border: 1px solid #ddd; line-height: 2.2; padding: 8px 15px; vertical-align: middle; }
+table.pb_simple_table th { text-align: center; width: 18%; }
+table.pb_simple_table td p { margin-top: 0 !important; padding: 0 !important; }
+table.pb_simple_table td > :last-child { margin-bottom: 0 !important; }
+
+@media only screen and (max-width: 767px) {
+  table.pb_simple_table th, table.pb_simple_table td { line-height: 1.8; padding: 10px 15px; }
+  table.pb_simple_table th { width: 25%; }
+}
+
+@media only screen and (max-width: 320px) {
+  table.pb_simple_table th { width: 30%; }
+}
+
+ul.pb_simple_table_icons { list-style: none !important; padding: 0 !important; margin: 0 !important; }
+ul.pb_simple_table_icons li { display: inline-block !important; padding: 0 !important; margin: 0 10px 0 0 !important; }
+.pb_simple_table_icons a, .post_content .pb_simple_table_icons a { color: #000; text-decoration: none !important; -webkit-transition-property: none; }
+.pb_simple_table_icons a span { display: none; }
+.pb_simple_table_icons a:before { font-family: "design_plus"; }
+.pb_simple_table_icon-website a:before { content: "\f0ac"; }
+.pb_simple_table_icon-facebook a:before { content: "\e902"; }
+.pb_simple_table_icon-twitter a:before { content: "\e904"; }
+.pb_simple_table_icon-instagram a:before { content: "\ea92"; }
+.pb_simple_table_icon-pinterest a:before { content: "\e905"; }
+.pb_simple_table_icon-flickr a:before { content: "\eaa4"; }
+.pb_simple_table_icon-tumblr a:before { content: "\eab9"; }
+.pb_simple_table_icon-youtube a:before { content: "\ea9e"; }
+.pb_simple_table_icon-contact a:before { content: "\f003"; }
+.pb_simple_table_icon-rss a:before { content: "\e90b"; }

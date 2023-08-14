@@ -1,0 +1,1760 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: design-plus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-11 13:40+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mono-lab <mail@mono-lab.net>\n"
+"Language-Team: design plus\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.6.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:10 mobile/404.php:7
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: archive.php:9 mobile/archive.php:6
+msgid "News Archives"
+msgstr ""
+
+#: archive.php:11 mobile/archive.php:8
+#, php-format
+msgid "Archive for the &#8216; %s &#8217; Category"
+msgstr ""
+
+#: archive.php:13 mobile/archive.php:10
+#, php-format
+msgid "Posts Tagged &#8216; %s &#8217;"
+msgstr ""
+
+#: archive.php:15 archive.php:17 archive.php:19 mobile/archive.php:12
+#: mobile/archive.php:14 mobile/archive.php:16
+#, php-format
+msgid "Archive for &#8216; %s &#8217;"
+msgstr ""
+
+#: archive.php:15 comments.php:101 functions.php:467 functions/seo.php:162
+#: functions/seo.php:241 mobile/archive.php:12
+msgid "F jS, Y"
+msgstr ""
+
+#: archive.php:17 functions/seo.php:166 functions/seo.php:245
+#: mobile/archive.php:14
+msgid "F, Y"
+msgstr ""
+
+#: archive.php:19 functions/seo.php:170 functions/seo.php:249
+#: mobile/archive.php:16
+msgid "Y"
+msgstr ""
+
+#: archive.php:22 mobile/archive.php:19
+#, php-format
+msgid "Archive of %s"
+msgstr ""
+
+#: archive.php:24 mobile/archive.php:21
+msgid "Blog Archives"
+msgstr ""
+
+#: archive.php:45 search.php:29 mobile/archive.php:42 mobile/search.php:26
+msgid "Load more post"
+msgstr ""
+
+#: archive.php:48 search.php:32 mobile/archive.php:45 mobile/search.php:29
+#: widget/styled_post_list1.php:49
+msgid "There is no registered post."
+msgstr ""
+
+#: comments.php:7 comments.php:13
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:29 single.php:18 mobile/single.php:15
+msgid "Comment"
+msgstr ""
+
+#: comments.php:35
+msgid "Trackback"
+msgstr ""
+
+#: comments.php:36 comments.php:39
+msgid "Comments"
+msgstr ""
+
+#: comments.php:38
+msgid "Trackback are closed"
+msgstr ""
+
+#: comments.php:70
+msgid "No comments yet."
+msgstr ""
+
+#: comments.php:102
+msgid "[ EDIT ]"
+msgstr ""
+
+#: comments.php:105
+msgid "Trackback from : "
+msgstr ""
+
+#: comments.php:110
+msgid "No trackbacks yet."
+msgstr ""
+
+#: comments.php:116
+msgid "TRACKBACK URL"
+msgstr ""
+
+#: comments.php:143
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:159
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr ""
+
+#: comments.php:159
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:159
+msgid "[ Log out ]"
+msgstr ""
+
+#: comments.php:165
+msgid "NAME"
+msgstr ""
+
+#: comments.php:165 comments.php:166
+msgid "( required )"
+msgstr ""
+
+#: comments.php:166
+msgid "E-MAIL"
+msgstr ""
+
+#: comments.php:166
+msgid "- will not be published -"
+msgstr ""
+
+#: comments.php:167
+msgid "URL"
+msgstr ""
+
+#: comments.php:181
+msgid "Submit Comment"
+msgstr ""
+
+#: footer.php:83 mobile/footer.php:81
+msgid "Copyright &copy;&nbsp; "
+msgstr ""
+
+#: footer.php:89
+msgid "PAGE TOP"
+msgstr ""
+
+#: functions.php:30
+msgid "Please Select Image"
+msgstr ""
+
+#: functions.php:30
+msgid "Use this Image"
+msgstr ""
+
+#: functions.php:139
+msgid "Archive side widget"
+msgstr ""
+
+#: functions.php:147
+msgid "Single side widget"
+msgstr ""
+
+#: functions.php:155
+msgid "Page side widget"
+msgstr ""
+
+#: functions.php:163
+msgid "Front page widget (mobile)"
+msgstr ""
+
+#: functions.php:164 functions.php:173 functions.php:182 functions.php:191
+msgid ""
+"This widget will be replaced with normal widget when a user accesses the "
+"site by smartphone."
+msgstr ""
+
+#: functions.php:172
+msgid "Archive widget (mobile)"
+msgstr ""
+
+#: functions.php:181
+msgid "Single page widget (mobile)"
+msgstr ""
+
+#: functions.php:190
+msgid "Page side widget (mobile)"
+msgstr ""
+
+#: functions.php:294
+msgid "Global menu"
+msgstr ""
+
+#: functions.php:295
+msgid "Footer menu (first column)"
+msgstr ""
+
+#: functions.php:296
+msgid "Footer menu (second column)"
+msgstr ""
+
+#: functions.php:297
+msgid "Footer menu (third column)"
+msgstr ""
+
+#: functions.php:298
+msgid "Footer menu (fourth column)"
+msgstr ""
+
+#: functions.php:299
+msgid "Footer menu (fifth column)"
+msgstr ""
+
+#: functions.php:300
+msgid "Footer menu (sixth column)"
+msgstr ""
+
+#: functions.php:301
+msgid "Footer menu (bottom of the page)"
+msgstr ""
+
+#: functions.php:325 functions.php:326 functions.php:339
+msgid "News"
+msgstr ""
+
+#: functions.php:327 functions.php:374
+msgid "Add New"
+msgstr ""
+
+#: functions.php:328 functions.php:375
+msgid "Add New Item"
+msgstr ""
+
+#: functions.php:329 functions.php:376
+msgid "Edit"
+msgstr ""
+
+#: functions.php:330 functions.php:377
+msgid "New item"
+msgstr ""
+
+#: functions.php:331 functions.php:378
+msgid "View Item"
+msgstr ""
+
+#: functions.php:332 functions.php:379
+msgid "Search Items"
+msgstr ""
+
+#: functions.php:333 functions.php:380
+msgid "Not Found"
+msgstr ""
+
+#: functions.php:334 functions.php:381
+msgid "Not found in trash"
+msgstr ""
+
+#: functions.php:372 functions.php:373 functions.php:386
+msgid "Staff"
+msgstr ""
+
+#: functions.php:405
+msgid "Featured Image"
+msgstr ""
+
+#: functions.php:467
+msgid " g:ia"
+msgstr ""
+
+#: functions.php:474 functions.php:476 functions.php:479
+msgid "REPLY"
+msgstr ""
+
+#: functions.php:481
+msgid "QUOTE"
+msgstr ""
+
+#: functions.php:482
+msgid "EDIT"
+msgstr ""
+
+#: functions.php:488
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: header.php:136 mobile/header.php:123
+msgid "Loading post..."
+msgstr ""
+
+#: header.php:137 mobile/header.php:124
+msgid "No more post"
+msgstr ""
+
+#: header.php:256 header.php:264 header.php:285 header.php:293 header.php:304
+#: mobile/header.php:251 mobile/header.php:259 mobile/header.php:267
+#: mobile/header.php:275 mobile/header.php:296 mobile/header.php:304
+#: mobile/header.php:312 mobile/header.php:320 mobile/header.php:331
+#: mobile/header.php:339
+msgid "Blog"
+msgstr ""
+
+#: header.php:311 mobile/header.php:346
+msgid "404 NOTFOUND"
+msgstr ""
+
+#: navigation.php:18
+msgid "RETURN HOME"
+msgstr ""
+
+#: page-noside.php:16 page.php:21 single-news.php:21 single-staff.php:19
+#: single.php:25 mobile/page-noside.php:15 mobile/page.php:18
+#: mobile/single-news.php:18 mobile/single-staff.php:18 mobile/single.php:22
+msgid "Read more"
+msgstr ""
+
+#: search.php:8 mobile/search.php:5
+#, php-format
+msgid "Search results for - %s"
+msgstr ""
+
+#: single-news.php:29 single.php:35 mobile/single.php:32
+msgid "Previous post"
+msgstr ""
+
+#: single-news.php:30 single.php:36 mobile/single.php:33
+msgid "Next post"
+msgstr ""
+
+#: single.php:19 mobile/single.php:16
+msgid "Author"
+msgstr ""
+
+#: single.php:91 mobile/single.php:88
+msgid "Related post"
+msgstr ""
+
+#: admin/theme-options.php:78
+msgid "News archive"
+msgstr ""
+
+#: admin/theme-options.php:104 admin/theme-options.php:170
+msgid "All staff"
+msgstr ""
+
+#: admin/theme-options.php:125
+msgid "Contact us"
+msgstr ""
+
+#: admin/theme-options.php:128
+msgid "Mail form"
+msgstr ""
+
+#: admin/theme-options.php:154 admin/theme-options.php:273
+msgid "Theme Options"
+msgstr ""
+
+#: admin/theme-options.php:193 admin/theme-options.php:204
+#: admin/theme-options.php:215 admin/theme-options.php:234
+#: admin/theme-options.php:245
+msgid "Temple"
+msgstr ""
+
+#: admin/theme-options.php:194 admin/theme-options.php:205
+#: admin/theme-options.php:216 admin/theme-options.php:235
+#: admin/theme-options.php:246
+msgid "Pen"
+msgstr ""
+
+#: admin/theme-options.php:195 admin/theme-options.php:206
+#: admin/theme-options.php:217 admin/theme-options.php:236
+#: admin/theme-options.php:247
+msgid "People"
+msgstr ""
+
+#: admin/theme-options.php:196 admin/theme-options.php:207
+#: admin/theme-options.php:218 admin/theme-options.php:237
+#: admin/theme-options.php:248
+msgid "Building"
+msgstr ""
+
+#: admin/theme-options.php:197 admin/theme-options.php:208
+#: admin/theme-options.php:219 admin/theme-options.php:238
+#: admin/theme-options.php:249
+msgid "Man"
+msgstr ""
+
+#: admin/theme-options.php:226
+msgid "Show icon and image"
+msgstr ""
+
+#: admin/theme-options.php:227
+msgid "Show only icon"
+msgstr ""
+
+#: admin/theme-options.php:228
+msgid "Show only image"
+msgstr ""
+
+#: admin/theme-options.php:256
+msgid "Normal header"
+msgstr ""
+
+#: admin/theme-options.php:257
+msgid "Fix at top after page scroll"
+msgstr ""
+
+#: admin/theme-options.php:278
+msgid "Updated"
+msgstr ""
+
+#: admin/theme-options.php:293
+msgid "Basic"
+msgstr ""
+
+#: admin/theme-options.php:294
+msgid "Logo"
+msgstr ""
+
+#: admin/theme-options.php:295
+msgid "Index Page"
+msgstr ""
+
+#: admin/theme-options.php:296
+msgid "Staff Page"
+msgstr ""
+
+#: admin/theme-options.php:297
+msgid "Blog Page"
+msgstr ""
+
+#: admin/theme-options.php:298
+msgid "News Page"
+msgstr ""
+
+#: admin/theme-options.php:299
+msgid "Header Setting"
+msgstr ""
+
+#: admin/theme-options.php:300
+msgid "Footer Setting"
+msgstr ""
+
+#: admin/theme-options.php:318 admin/theme-options.php:530
+#: admin/theme-options.php:960
+msgid "Color setting"
+msgstr ""
+
+#: admin/theme-options.php:319
+msgid "Primary color setting"
+msgstr ""
+
+#: admin/theme-options.php:321 admin/theme-options.php:324
+#: admin/theme-options.php:541 admin/theme-options.php:962
+msgid "Default color"
+msgstr ""
+
+#: admin/theme-options.php:322
+msgid "Secondary color setting"
+msgstr ""
+
+#: admin/theme-options.php:325 admin/theme-options.php:334
+#: admin/theme-options.php:352 admin/theme-options.php:360
+#: admin/theme-options.php:497 admin/theme-options.php:582
+#: admin/theme-options.php:589 admin/theme-options.php:641
+#: admin/theme-options.php:665 admin/theme-options.php:718
+#: admin/theme-options.php:743 admin/theme-options.php:760
+#: admin/theme-options.php:767 admin/theme-options.php:774
+#: admin/theme-options.php:781 admin/theme-options.php:806
+#: admin/theme-options.php:823 admin/theme-options.php:855
+#: admin/theme-options.php:891 admin/theme-options.php:917
+#: admin/theme-options.php:934 admin/theme-options.php:953
+#: admin/theme-options.php:967 admin/theme-options.php:993
+#: admin/theme-options.php:1017 admin/theme-options.php:1024
+#: admin/theme-options.php:1043
+msgid "Save Changes"
+msgstr ""
+
+#: admin/theme-options.php:331
+msgid "Font size"
+msgstr ""
+
+#: admin/theme-options.php:332
+msgid "Font size of single page and wp-page."
+msgstr ""
+
+#: admin/theme-options.php:339
+msgid "Display Setup"
+msgstr ""
+
+#: admin/theme-options.php:341 widget/styled_post_list1.php:103
+msgid "Display date"
+msgstr ""
+
+#: admin/theme-options.php:342
+msgid "Display category"
+msgstr ""
+
+#: admin/theme-options.php:343
+msgid "Display tags"
+msgstr ""
+
+#: admin/theme-options.php:344
+msgid "Display author"
+msgstr ""
+
+#: admin/theme-options.php:345
+msgid "Display comment"
+msgstr ""
+
+#: admin/theme-options.php:346
+msgid "Display thumbnail at single post page"
+msgstr ""
+
+#: admin/theme-options.php:347
+msgid "Display SNS button"
+msgstr ""
+
+#: admin/theme-options.php:348
+msgid "Display trackbacks at single post page"
+msgstr ""
+
+#: admin/theme-options.php:349
+msgid "Display related post at single post page"
+msgstr ""
+
+#: admin/theme-options.php:350
+msgid "Display next previous post link at single post page"
+msgstr ""
+
+#: admin/theme-options.php:357
+msgid "Free input area for user definition CSS."
+msgstr ""
+
+#: admin/theme-options.php:358
+msgid "Code example:<br /><strong>.example { font-size:12px; }</strong>"
+msgstr ""
+
+#: admin/theme-options.php:373
+msgid "Step 1 : Upload image to use for logo."
+msgstr ""
+
+#: admin/theme-options.php:374
+msgid ""
+"Upload image to use for logo from your computer.<br />You can resize your "
+"logo image in step 2."
+msgstr ""
+
+#: admin/theme-options.php:376
+msgid "Select image to use for logo from your computer."
+msgstr ""
+
+#: admin/theme-options.php:378
+msgid "Upload"
+msgstr ""
+
+#: admin/theme-options.php:382
+msgid "Uploaded image."
+msgstr ""
+
+#: admin/theme-options.php:386
+#, php-format
+msgid "Original image size : width %1$dpx, height %2$dpx"
+msgstr ""
+
+#: admin/theme-options.php:390
+msgid ""
+"The image has not been uploaded yet.<br />A normal text will be used for a "
+"site logo."
+msgstr ""
+
+#: admin/theme-options.php:398
+msgid "Step 2 : Resize uploaded image."
+msgstr ""
+
+#: admin/theme-options.php:399
+msgid "You can resize uploaded image."
+msgstr ""
+
+#: admin/theme-options.php:401
+msgid "Please drag the range to cut off."
+msgstr ""
+
+#: admin/theme-options.php:406
+msgid "Ratio"
+msgstr ""
+
+#: admin/theme-options.php:407
+msgid "Width"
+msgstr ""
+
+#: admin/theme-options.php:408
+msgid "Height"
+msgstr ""
+
+#: admin/theme-options.php:411
+msgid "Resize"
+msgstr ""
+
+#: admin/theme-options.php:416
+#, php-format
+msgid "Resized image : width %1$dpx, height %2$dpx"
+msgstr ""
+
+#: admin/theme-options.php:428
+msgid "Step 3 : Adjust position of logo."
+msgstr ""
+
+#: admin/theme-options.php:429
+msgid "Drag the logo image and adjust the position."
+msgstr ""
+
+#: admin/theme-options.php:433
+msgid "Logo size is too big. Please resize your logo image."
+msgstr ""
+
+#: admin/theme-options.php:437
+msgid "Top"
+msgstr ""
+
+#: admin/theme-options.php:438
+msgid "Left"
+msgstr ""
+
+#: admin/theme-options.php:441
+msgid "Save the position"
+msgstr ""
+
+#: admin/theme-options.php:448
+msgid "Delete logo image."
+msgstr ""
+
+#: admin/theme-options.php:449
+msgid "If you delete the logo image, normal text will be used for a site logo."
+msgstr ""
+
+#: admin/theme-options.php:450
+msgid "Are you sure to delete logo image?"
+msgstr ""
+
+#: admin/theme-options.php:450
+msgid "Delete Image"
+msgstr ""
+
+#: admin/theme-options.php:464
+msgid "Header slider setting"
+msgstr ""
+
+#: admin/theme-options.php:465
+msgid "You can register 3 images."
+msgstr ""
+
+#: admin/theme-options.php:466
+msgid "Display slider at top page"
+msgstr ""
+
+#: admin/theme-options.php:469
+#, php-format
+msgid "Slider%s setting"
+msgstr ""
+
+#: admin/theme-options.php:470
+msgid "Slider image"
+msgstr ""
+
+#: admin/theme-options.php:471 admin/theme-options.php:597
+#: admin/theme-options.php:732 admin/theme-options.php:906
+msgid "Recommend image size. Width:1450px, Height:400px"
+msgstr ""
+
+#: admin/theme-options.php:477 admin/theme-options.php:492
+#: admin/theme-options.php:575 admin/theme-options.php:603
+#: admin/theme-options.php:615 admin/theme-options.php:682
+#: admin/theme-options.php:738 admin/theme-options.php:755
+#: admin/theme-options.php:801 admin/theme-options.php:818
+#: admin/theme-options.php:845 admin/theme-options.php:881
+#: admin/theme-options.php:912 admin/theme-options.php:929
+#: admin/theme-options.php:1012 functions/category.php:18
+#: functions/category.php:34 functions/page_cf.php:589 widget/ad.php:88
+msgid "Select Image"
+msgstr ""
+
+#: admin/theme-options.php:478 admin/theme-options.php:493
+#: admin/theme-options.php:576 admin/theme-options.php:604
+#: admin/theme-options.php:616 admin/theme-options.php:683
+#: admin/theme-options.php:739 admin/theme-options.php:756
+#: admin/theme-options.php:802 admin/theme-options.php:819
+#: admin/theme-options.php:846 admin/theme-options.php:882
+#: admin/theme-options.php:913 admin/theme-options.php:930
+#: admin/theme-options.php:1013 functions/category.php:19
+#: functions/category.php:35 functions/page_cf.php:590 widget/ad.php:93
+msgid "Remove Image"
+msgstr ""
+
+#: admin/theme-options.php:482 admin/theme-options.php:580
+#: admin/theme-options.php:695 admin/theme-options.php:965
+msgid "Link URL"
+msgstr ""
+
+#: admin/theme-options.php:483
+msgid "Leave this field blank if you don't want to use link at image."
+msgstr ""
+
+#: admin/theme-options.php:485
+msgid "Slider image for mobile device"
+msgstr ""
+
+#: admin/theme-options.php:486 admin/theme-options.php:609
+#: admin/theme-options.php:749 admin/theme-options.php:812
+#: admin/theme-options.php:923
+msgid "Recommend image size. Width:800px, Height:Free size"
+msgstr ""
+
+#: admin/theme-options.php:486 admin/theme-options.php:749
+#: admin/theme-options.php:812 admin/theme-options.php:923
+msgid ""
+"If this image is not registered, images that were previously registered will "
+"be displayed."
+msgstr ""
+
+#: admin/theme-options.php:504
+msgid "Content under header slider"
+msgstr ""
+
+#: admin/theme-options.php:505 admin/theme-options.php:595
+#: admin/theme-options.php:647 admin/theme-options.php:671
+msgid "Display this content at top page"
+msgstr ""
+
+#: admin/theme-options.php:506
+msgid "Icon and image type"
+msgstr ""
+
+#: admin/theme-options.php:529
+#, php-format
+msgid "Box%s setting"
+msgstr ""
+
+#: admin/theme-options.php:542 admin/theme-options.php:648
+#: admin/theme-options.php:672
+msgid "Headline"
+msgstr ""
+
+#: admin/theme-options.php:544 admin/theme-options.php:697
+msgid "Icon"
+msgstr ""
+
+#: admin/theme-options.php:566 admin/theme-options.php:587
+#: admin/theme-options.php:688
+msgid "Description"
+msgstr ""
+
+#: admin/theme-options.php:568 admin/theme-options.php:596
+#: admin/theme-options.php:675 functions/page_cf.php:191
+#: functions/page_cf.php:196 functions/page_cf.php:217
+#: functions/page_cf.php:231 functions/page_cf.php:245
+#: functions/page_cf.php:259 functions/page_cf.php:265
+#: functions/page_cf.php:279 functions/page_cf.php:299
+#: functions/page_cf.php:313 functions/page_cf.php:327
+#: functions/page_cf.php:341 functions/page_cf.php:355
+#: functions/page_cf.php:369 functions/page_cf.php:389
+#: functions/page_cf.php:403 functions/page_cf.php:417
+#: functions/page_cf.php:432 functions/page_cf.php:446
+#: functions/page_cf.php:460 functions/page_cf.php:485
+#: functions/page_cf.php:504 functions/page_cf.php:510
+msgid "Image"
+msgstr ""
+
+#: admin/theme-options.php:569
+msgid "Recommend image size. Width:380px, Height:110px"
+msgstr ""
+
+#: admin/theme-options.php:585
+msgid "Catchphrase"
+msgstr ""
+
+#: admin/theme-options.php:594
+msgid "News content"
+msgstr ""
+
+#: admin/theme-options.php:608
+msgid "Image for mobile device"
+msgstr ""
+
+#: admin/theme-options.php:620
+msgid "Headline of News list"
+msgstr ""
+
+#: admin/theme-options.php:622
+msgid "Number of post to show at News list"
+msgstr ""
+
+#: admin/theme-options.php:637
+msgid "Button for news archive page"
+msgstr ""
+
+#: admin/theme-options.php:638
+msgid "Display button for news archive page"
+msgstr ""
+
+#: admin/theme-options.php:639 admin/theme-options.php:693
+#: admin/theme-options.php:963
+msgid "Label for this button"
+msgstr ""
+
+#: admin/theme-options.php:646
+msgid "Staff content"
+msgstr ""
+
+#: admin/theme-options.php:650
+msgid "Number of staff to show on staff list"
+msgstr ""
+
+#: admin/theme-options.php:670
+msgid "Content under staff list"
+msgstr ""
+
+#: admin/theme-options.php:676
+msgid "Recommend image size. Width:290px, Height:260px"
+msgstr ""
+
+#: admin/theme-options.php:691
+#, php-format
+msgid "Button%s setting"
+msgstr ""
+
+#: admin/theme-options.php:692
+msgid "Display this button"
+msgstr ""
+
+#: admin/theme-options.php:731
+msgid "Image for Staff archive page"
+msgstr ""
+
+#: admin/theme-options.php:748
+msgid "Image for Staff archive page (for mobile device)"
+msgstr ""
+
+#: admin/theme-options.php:765
+msgid "Headline for Staff archive page"
+msgstr ""
+
+#: admin/theme-options.php:772
+msgid "Description for Staff archive page"
+msgstr ""
+
+#: admin/theme-options.php:779
+msgid "Headline for Staff single page"
+msgstr ""
+
+#: admin/theme-options.php:794
+msgid "Image for Blog page"
+msgstr ""
+
+#: admin/theme-options.php:795 functions/category.php:12
+msgid "Recommend image size. Width:1160px, Height:300px"
+msgstr ""
+
+#: admin/theme-options.php:811
+msgid "Image for Blog page (for mobile)"
+msgstr ""
+
+#: admin/theme-options.php:829
+msgid "Adsense for Blog post page"
+msgstr ""
+
+#: admin/theme-options.php:830 admin/theme-options.php:866
+msgid "This Adsense will be displayed after post contents."
+msgstr ""
+
+#: admin/theme-options.php:832 admin/theme-options.php:869
+msgid "Banner code"
+msgstr ""
+
+#: admin/theme-options.php:833 admin/theme-options.php:870
+msgid "If you are using google adsense, enter all code below."
+msgstr ""
+
+#: admin/theme-options.php:836 admin/theme-options.php:873
+msgid ""
+"If you are not using google adsense, you can register your banner image and "
+"affiliate code individually."
+msgstr ""
+
+#: admin/theme-options.php:838 admin/theme-options.php:875
+msgid "Register banner image."
+msgstr ""
+
+#: admin/theme-options.php:839
+msgid "Recommend image size. Width:300px, Height:Free size"
+msgstr ""
+
+#: admin/theme-options.php:852 admin/theme-options.php:888
+msgid "Register affiliate code"
+msgstr ""
+
+#: admin/theme-options.php:862
+msgid "Mobile device size adsense for Blog post page"
+msgstr ""
+
+#: admin/theme-options.php:864
+msgid "This Adsense will be displayed before post contents."
+msgstr ""
+
+#: admin/theme-options.php:905
+msgid "Image for News page"
+msgstr ""
+
+#: admin/theme-options.php:922
+msgid "Image for News page (for mobile)"
+msgstr ""
+
+#: admin/theme-options.php:947 admin/theme-options.php:951
+msgid "Telephone number"
+msgstr ""
+
+#: admin/theme-options.php:948
+msgid "Display telephone number at header"
+msgstr ""
+
+#: admin/theme-options.php:949
+msgid "Label for telephone number"
+msgstr ""
+
+#: admin/theme-options.php:958
+msgid "Contact page button"
+msgstr ""
+
+#: admin/theme-options.php:959
+msgid "Display contact page button at header"
+msgstr ""
+
+#: admin/theme-options.php:972
+msgid "Header position"
+msgstr ""
+
+#: admin/theme-options.php:1006
+msgid "Footer logo"
+msgstr ""
+
+#: admin/theme-options.php:1022
+msgid "Footer address"
+msgstr ""
+
+#: admin/theme-options.php:1029
+msgid "SNS button setting"
+msgstr ""
+
+#: admin/theme-options.php:1030
+msgid ""
+"Enter url of your twitter and facebook page. If it is blank SNS button will "
+"not be shown."
+msgstr ""
+
+#: admin/theme-options.php:1033
+msgid "your twitter URL"
+msgstr ""
+
+#: admin/theme-options.php:1037
+msgid "your facebook URL"
+msgstr ""
+
+#: admin/theme-options.php:1042
+msgid "Display RSS button"
+msgstr ""
+
+#: functions/category.php:10 functions/page_cf.php:189
+msgid "Main image"
+msgstr ""
+
+#: functions/category.php:26 functions/page_cf.php:194
+msgid "Main image for mobile device"
+msgstr ""
+
+#: functions/category.php:28 functions/page_cf.php:195
+msgid ""
+"If this image is not registered, images that were previously registered will "
+"be displayed.<br />Recommend image size. Width:800px Height:Free size"
+msgstr ""
+
+#: functions/custom_css.php:6
+msgid "You don't need to enter &lt;style&gt; tag."
+msgstr ""
+
+#: functions/custom_css.php:11
+msgid "Custom CSS for this post"
+msgstr ""
+
+#: functions/custom_css.php:12
+msgid "Custom CSS for this page"
+msgstr ""
+
+#: functions/custom_page_link.php:4
+msgid "Pages:"
+msgstr ""
+
+#: functions/custom_page_link.php:9
+msgid "Next page"
+msgstr ""
+
+#: functions/custom_page_link.php:10
+msgid "Previous page"
+msgstr ""
+
+#: functions/header-logo.php:222
+#, php-format
+msgid ""
+"Cannot create upload directory. Please make sure <code>%s</code> is writable."
+msgstr ""
+
+#: functions/header-logo.php:234
+#, php-format
+msgid ""
+"Cannot save uploaded file. Please make sure <code>%s</code> is writable."
+msgstr ""
+
+#: functions/header-logo.php:245
+msgid ""
+"Uploaded file type is not allowed. Allowed file types are PNG, JPG and GIF."
+msgstr ""
+
+#: functions/header-logo.php:257
+#, php-format
+msgid "Cannot delete existing file <code>%s</code>"
+msgstr ""
+
+#: functions/header-logo.php:267
+msgid "Sorry, but cannot save uploaded file."
+msgstr ""
+
+#: functions/header-logo.php:273
+msgid "Logo file was successfully uploaded."
+msgstr ""
+
+#: functions/header-logo.php:305
+#, php-format
+msgid ""
+"Failed to delete image. Please check permisson of %s. All files must be "
+"writable."
+msgstr ""
+
+#: functions/header-logo.php:312
+msgid "Images are successfully deleted."
+msgstr ""
+
+#: functions/header-logo.php:335 functions/header-logo.php:348
+#: functions/header-logo.php:385
+msgid "Logo file not exists."
+msgstr ""
+
+#: functions/header-logo.php:415
+#, php-format
+msgid "Failed to save resized logo. Please check permission of <code>%s</code>"
+msgstr ""
+
+#: functions/header-logo.php:425
+msgid "Logo image is successfully resized."
+msgstr ""
+
+#: functions/header-logo.php:437
+msgid "Uploaded file size is larger than limit set in php.ini."
+msgstr ""
+
+#: functions/header-logo.php:440
+msgid "Uploaded file size is larget than post file size."
+msgstr ""
+
+#: functions/header-logo.php:443
+msgid ""
+"The file has been uploaded only partially. Connection error may have occured"
+msgstr ""
+
+#: functions/header-logo.php:446
+msgid "Uploaded file size is too large."
+msgstr ""
+
+#: functions/header-logo.php:449
+msgid "No temporary directory exists. Please check PHP Setting is valid."
+msgstr ""
+
+#: functions/header-logo.php:452
+msgid "Failed to write to disk. OS file setting or something is wrong."
+msgstr ""
+
+#: functions/header-logo.php:455
+msgid "PHP extension module stops uploading. Check PHP setting."
+msgstr ""
+
+#: functions/header-logo.php:458
+msgid "Upload failed. Sorry, but reasons cannot be detected."
+msgstr ""
+
+#: functions/page_cf.php:6
+msgid "Page template setting"
+msgstr ""
+
+#: functions/page_cf.php:22
+msgid "Page template type"
+msgstr ""
+
+#: functions/page_cf.php:27
+msgid "Normal template"
+msgstr ""
+
+#: functions/page_cf.php:28
+msgid "Template1"
+msgstr ""
+
+#: functions/page_cf.php:29
+msgid "Template2"
+msgstr ""
+
+#: functions/page_cf.php:30
+msgid "Template3"
+msgstr ""
+
+#: functions/page_cf.php:31
+msgid "Template4"
+msgstr ""
+
+#: functions/page_cf.php:39 functions/page_cf.php:113
+#: functions/page_cf.php:150
+msgid "Headline for first row"
+msgstr ""
+
+#: functions/page_cf.php:39 functions/page_cf.php:113
+#: functions/page_cf.php:150
+msgid "Enter headline for first row."
+msgstr ""
+
+#: functions/page_cf.php:41 functions/page_cf.php:115
+msgid "Description for first row"
+msgstr ""
+
+#: functions/page_cf.php:41 functions/page_cf.php:115
+msgid "Enter description for first row."
+msgstr ""
+
+#: functions/page_cf.php:45
+msgid "Headline for second row left column"
+msgstr ""
+
+#: functions/page_cf.php:45
+msgid "Enter headline for second row left column."
+msgstr ""
+
+#: functions/page_cf.php:47
+msgid "Description for second row left column"
+msgstr ""
+
+#: functions/page_cf.php:47
+msgid "Enter description for second row left column."
+msgstr ""
+
+#: functions/page_cf.php:50
+msgid "Headline for second row center column"
+msgstr ""
+
+#: functions/page_cf.php:50
+msgid "Enter headline for second row center column."
+msgstr ""
+
+#: functions/page_cf.php:52
+msgid "Description for second row center column"
+msgstr ""
+
+#: functions/page_cf.php:52
+msgid "Enter description for second row center column."
+msgstr ""
+
+#: functions/page_cf.php:55
+msgid "Headline for second row right column"
+msgstr ""
+
+#: functions/page_cf.php:55
+msgid "Enter headline for second row right column."
+msgstr ""
+
+#: functions/page_cf.php:57
+msgid "Description for second row right column"
+msgstr ""
+
+#: functions/page_cf.php:57
+msgid "Enter description for second row right column."
+msgstr ""
+
+#: functions/page_cf.php:61 functions/page_cf.php:104
+#: functions/page_cf.php:125 functions/page_cf.php:158
+msgid "Headline for fourth row"
+msgstr ""
+
+#: functions/page_cf.php:61 functions/page_cf.php:104
+#: functions/page_cf.php:125 functions/page_cf.php:158
+msgid "Enter headline for fourth row."
+msgstr ""
+
+#: functions/page_cf.php:63 functions/page_cf.php:106
+#: functions/page_cf.php:127 functions/page_cf.php:518
+msgid "Description for fourth row"
+msgstr ""
+
+#: functions/page_cf.php:63 functions/page_cf.php:106
+#: functions/page_cf.php:127 functions/page_cf.php:519
+msgid "Enter description for fourth row."
+msgstr ""
+
+#: functions/page_cf.php:67
+msgid "Headline for fifth row"
+msgstr ""
+
+#: functions/page_cf.php:67
+msgid "Enter headline for fifth row."
+msgstr ""
+
+#: functions/page_cf.php:69
+msgid "Description for fifth row"
+msgstr ""
+
+#: functions/page_cf.php:69
+msgid "Enter description for fifth row."
+msgstr ""
+
+#: functions/page_cf.php:76
+msgid "Headline for first row left column"
+msgstr ""
+
+#: functions/page_cf.php:76
+msgid "Enter headline for first row left column."
+msgstr ""
+
+#: functions/page_cf.php:78
+msgid "Description for first row left column"
+msgstr ""
+
+#: functions/page_cf.php:78
+msgid "Enter description for first row left column."
+msgstr ""
+
+#: functions/page_cf.php:81
+msgid "Headline for first row center column"
+msgstr ""
+
+#: functions/page_cf.php:81
+msgid "Enter headline for first row center column."
+msgstr ""
+
+#: functions/page_cf.php:83
+msgid "Description for first row center column"
+msgstr ""
+
+#: functions/page_cf.php:83
+msgid "Enter description for first row center column."
+msgstr ""
+
+#: functions/page_cf.php:86
+msgid "Headline for first row right column"
+msgstr ""
+
+#: functions/page_cf.php:86
+msgid "Enter headline for first row right column."
+msgstr ""
+
+#: functions/page_cf.php:88
+msgid "Description for first row right column"
+msgstr ""
+
+#: functions/page_cf.php:88
+msgid "Enter description for first row right column."
+msgstr ""
+
+#: functions/page_cf.php:92 functions/page_cf.php:119
+#: functions/page_cf.php:154
+msgid "Headline for second row"
+msgstr ""
+
+#: functions/page_cf.php:92 functions/page_cf.php:119
+#: functions/page_cf.php:154
+msgid "Enter headline for second row."
+msgstr ""
+
+#: functions/page_cf.php:94 functions/page_cf.php:121
+#: functions/page_cf.php:493
+msgid "Description for second row"
+msgstr ""
+
+#: functions/page_cf.php:94 functions/page_cf.php:121
+#: functions/page_cf.php:494
+msgid "Enter description for second row."
+msgstr ""
+
+#: functions/page_cf.php:98
+msgid "Headline for third row"
+msgstr ""
+
+#: functions/page_cf.php:98
+msgid "Enter headline for third row."
+msgstr ""
+
+#: functions/page_cf.php:100
+msgid "Description for third row"
+msgstr ""
+
+#: functions/page_cf.php:100
+msgid "Enter description for third row."
+msgstr ""
+
+#: functions/page_cf.php:131
+msgid "Headline for fifth row left column"
+msgstr ""
+
+#: functions/page_cf.php:131
+msgid "Enter headline for fifth row left column."
+msgstr ""
+
+#: functions/page_cf.php:133
+msgid "Description for fifth row left column"
+msgstr ""
+
+#: functions/page_cf.php:133
+msgid "Enter description for fifth row left column."
+msgstr ""
+
+#: functions/page_cf.php:136
+msgid "Headline for fifth row center column"
+msgstr ""
+
+#: functions/page_cf.php:136
+msgid "Enter headline for fifth row center column."
+msgstr ""
+
+#: functions/page_cf.php:138
+msgid "Description for fifth row center column"
+msgstr ""
+
+#: functions/page_cf.php:138
+msgid "Enter description for fifth row center column."
+msgstr ""
+
+#: functions/page_cf.php:141
+msgid "Headline for fifth row right column"
+msgstr ""
+
+#: functions/page_cf.php:141
+msgid "Enter headline for fifth row right column."
+msgstr ""
+
+#: functions/page_cf.php:143
+msgid "Description for fifth row right column"
+msgstr ""
+
+#: functions/page_cf.php:143
+msgid "Enter description for fifth row right column."
+msgstr ""
+
+#: functions/page_cf.php:162
+msgid "Google map"
+msgstr ""
+
+#: functions/page_cf.php:162
+msgid "Enter address. Google map will automatically build."
+msgstr ""
+
+#: functions/page_cf.php:179
+msgid "View image"
+msgstr ""
+
+#: functions/page_cf.php:190
+msgid ""
+"Register image for page header.<br />Recommend image size. Width:1450 "
+"Height:400px"
+msgstr ""
+
+#: functions/page_cf.php:215
+msgid "Image for second row left column"
+msgstr ""
+
+#: functions/page_cf.php:216
+msgid ""
+"Register image for second row left column.<br />Recommend image size. "
+"Width:360px Height:270px"
+msgstr ""
+
+#: functions/page_cf.php:229
+msgid "Image for second row center column"
+msgstr ""
+
+#: functions/page_cf.php:230
+msgid ""
+"Register image for second row center column.<br />Recommend image size. "
+"Width:360px Height:270px"
+msgstr ""
+
+#: functions/page_cf.php:243
+msgid "Image for second row right column"
+msgstr ""
+
+#: functions/page_cf.php:244
+msgid ""
+"Register image for second row right column.<br />Recommend image size. "
+"Width:360px Height:270px"
+msgstr ""
+
+#: functions/page_cf.php:257 functions/page_cf.php:353
+#: functions/page_cf.php:415 functions/page_cf.php:502
+msgid "Image for third row"
+msgstr ""
+
+#: functions/page_cf.php:258 functions/page_cf.php:416
+#: functions/page_cf.php:503
+msgid ""
+"Register image for third row.<br />Recommend image size. Width:1200px Height:"
+"Free size"
+msgstr ""
+
+#: functions/page_cf.php:263 functions/page_cf.php:367
+#: functions/page_cf.php:508
+msgid "Image for fourth row"
+msgstr ""
+
+#: functions/page_cf.php:264 functions/page_cf.php:368
+#: functions/page_cf.php:509
+msgid ""
+"Register image for fourth row.<br />Recommend image size. Width:568px Height:"
+"Free size"
+msgstr ""
+
+#: functions/page_cf.php:277
+msgid "Image for fifth row"
+msgstr ""
+
+#: functions/page_cf.php:278
+msgid ""
+"Register image for fifth row.<br />Recommend image size. Width:568px Height:"
+"Free size"
+msgstr ""
+
+#: functions/page_cf.php:297
+msgid "Image for first row left column"
+msgstr ""
+
+#: functions/page_cf.php:298
+msgid ""
+"Register image for first row left column.<br />Recommend image size. "
+"Width:360px Height:270px"
+msgstr ""
+
+#: functions/page_cf.php:311
+msgid "Image for first row center column"
+msgstr ""
+
+#: functions/page_cf.php:312
+msgid ""
+"Register image for first row center column.<br />Recommend image size. "
+"Width:360px Height:270px"
+msgstr ""
+
+#: functions/page_cf.php:325
+msgid "Image for first row right column"
+msgstr ""
+
+#: functions/page_cf.php:326
+msgid ""
+"Register image for first row right column.<br />Recommend image size. "
+"Width:360px Height:270px"
+msgstr ""
+
+#: functions/page_cf.php:339 functions/page_cf.php:401
+#: functions/page_cf.php:483
+msgid "Image for second row"
+msgstr ""
+
+#: functions/page_cf.php:340 functions/page_cf.php:402
+#: functions/page_cf.php:484
+msgid ""
+"Register image for second row.<br />Recommend image size. Width:568px Height:"
+"Free size"
+msgstr ""
+
+#: functions/page_cf.php:354
+msgid ""
+"Register image for third row.<br />Recommend image size. Width:568px Height:"
+"Free size"
+msgstr ""
+
+#: functions/page_cf.php:387
+msgid "Image for first row"
+msgstr ""
+
+#: functions/page_cf.php:388
+msgid ""
+"Register image for first row.<br />Recommend image size. Width:568px Height:"
+"Free size"
+msgstr ""
+
+#: functions/page_cf.php:430
+msgid "Image for fifth row left column"
+msgstr ""
+
+#: functions/page_cf.php:431
+msgid ""
+"Register image for fifth row left column.<br />Recommend image size. "
+"Width:360px Height:270px"
+msgstr ""
+
+#: functions/page_cf.php:444
+msgid "Image for fifth row center column"
+msgstr ""
+
+#: functions/page_cf.php:445
+msgid ""
+"Register image for fifth row center column.<br />Recommend image size. "
+"Width:360px Height:270px"
+msgstr ""
+
+#: functions/page_cf.php:458
+msgid "Image for fifth row right column"
+msgstr ""
+
+#: functions/page_cf.php:459
+msgid ""
+"Register image for fifth row right column.<br />Recommend image size. "
+"Width:360px Height:270px"
+msgstr ""
+
+#: functions/seo.php:7
+msgid "Meta title and description"
+msgstr ""
+
+#: functions/seo.php:12
+msgid "Meta title"
+msgstr ""
+
+#: functions/seo.php:13
+msgid "Enter meta title here."
+msgstr ""
+
+#: functions/seo.php:19
+msgid "Meta description"
+msgstr ""
+
+#: functions/seo.php:20
+msgid "Enter meta description here."
+msgstr ""
+
+#: functions/seo.php:62
+msgid "word count:"
+msgstr ""
+
+#: functions/seo.php:150 functions/seo.php:154 functions/seo.php:158
+#: functions/seo.php:259
+#, php-format
+msgid "Post list for %s"
+msgstr ""
+
+#: functions/seo.php:162 functions/seo.php:166 functions/seo.php:170
+#: functions/seo.php:176 functions/seo.php:241 functions/seo.php:245
+#: functions/seo.php:249 functions/seo.php:255
+#, php-format
+msgid "Archive for %s"
+msgstr ""
+
+#: functions/seo.php:187
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions/staff_cf.php:11
+msgid "<p>Recommend image size. Width:250px Height:Free size</p>"
+msgstr ""
+
+#: functions/staff_cf.php:21
+msgid "Additinonal staff information"
+msgstr ""
+
+#: functions/staff_cf.php:34
+msgid "Sub title"
+msgstr ""
+
+#: functions/staff_cf.php:34
+msgid "Enter sub title for this staff."
+msgstr ""
+
+#: functions/staff_cf.php:37
+msgid "Short description"
+msgstr ""
+
+#: functions/staff_cf.php:37
+msgid "Enter short description for staff list."
+msgstr ""
+
+#: mobile/footer.php:74
+msgid "MENU"
+msgstr ""
+
+#: mobile/footer.php:75
+msgid "HOME"
+msgstr ""
+
+#: mobile/footer.php:76
+msgid "TOP"
+msgstr ""
+
+#: mobile/footer.php:77
+msgid "SIDEBAR"
+msgstr ""
+
+#: widget/ad.php:6
+msgid "Show AdSense at random in front page."
+msgstr ""
+
+#: widget/ad.php:8
+msgid "AdSense (tcd ver)"
+msgstr ""
+
+#: widget/ad.php:71
+msgid "One out of three AdSense will be displayed at random in front page."
+msgstr ""
+
+#: widget/ad.php:76
+msgid "AdSense"
+msgstr ""
+
+#: widget/ad.php:79
+msgid "Register AdSense code"
+msgstr ""
+
+#: widget/ad.php:80
+msgid ""
+"If you are using Google AdSense or similar kind of AdSense, enter all code "
+"below."
+msgstr ""
+
+#: widget/ad.php:83
+msgid ""
+"If you want to register banner image and affiliate code individually, leave "
+"the field above blank and use the field below."
+msgstr ""
+
+#: widget/ad.php:85
+msgid "Register AdSense image"
+msgstr ""
+
+#: widget/ad.php:97
+msgid "Register affiliate code or link url for registered image"
+msgstr ""
+
+#: widget/archive_list.php:8
+msgid "Displays designed archive list."
+msgstr ""
+
+#: widget/archive_list.php:10
+msgid "Archive list (tcd ver)"
+msgstr ""
+
+#: widget/archive_list.php:45
+msgid "Archive list"
+msgstr ""
+
+#: widget/archive_list.php:49 widget/category_list.php:64
+#: widget/styled_post_list1.php:75
+msgid "Title:"
+msgstr ""
+
+#: widget/category_list.php:8
+msgid "Displays Category list."
+msgstr ""
+
+#: widget/category_list.php:10
+msgid "Category list (tcd ver)"
+msgstr ""
+
+#: widget/category_list.php:60
+msgid "Category list"
+msgstr ""
+
+#: widget/category_list.php:68
+msgid "Categories to exclude:"
+msgstr ""
+
+#: widget/category_list.php:70
+msgid ""
+"Enter a comma-seperated list of category ID numbers, example 2,4,10<br /"
+">(Don't enter comma for last number)."
+msgstr ""
+
+#: widget/google_search.php:8
+msgid "Displays Google Custom Search form."
+msgstr ""
+
+#: widget/google_search.php:10
+msgid "Google Custom Search (tcd-w ver)"
+msgstr ""
+
+#: widget/google_search.php:26
+msgid "Search"
+msgstr ""
+
+#: widget/google_search.php:30
+msgid "SEARCH"
+msgstr ""
+
+#: widget/google_search.php:51
+msgid ""
+"If you wan't to use google custom search for your wordpress, enter your "
+"google custom search ID.<br /><a href=\"http://www.google.com/cse/\" target="
+"\"_blank\">Read more about Google custom search page.</a>"
+msgstr ""
+
+#: widget/google_search.php:53
+msgid "Google custom search ID"
+msgstr ""
+
+#: widget/styled_post_list1.php:8
+msgid "Displays styled post list."
+msgstr ""
+
+#: widget/styled_post_list1.php:10
+msgid "Styled post list (tcd ver)"
+msgstr ""
+
+#: widget/styled_post_list1.php:71
+msgid "Recent post"
+msgstr ""
+
+#: widget/styled_post_list1.php:79
+msgid "Number of post:"
+msgstr ""
+
+#: widget/styled_post_list1.php:94
+msgid "Post order:"
+msgstr ""
+
+#: widget/styled_post_list1.php:96
+msgid "Date (DESC)"
+msgstr ""
+
+#: widget/styled_post_list1.php:97
+msgid "Date (ASC)"
+msgstr ""
+
+#: widget/styled_post_list1.php:98
+msgid "Random"
+msgstr ""
